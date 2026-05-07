@@ -39,7 +39,7 @@ interface AnalysisRow {
     error?: string;
 }
 
-const BACKEND = 'http://localhost:8000';
+const BACKEND = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:8000';
 
 // ─── Component ────────────────────────────────────────────────────
 export default function LiteratureReviewPage() {

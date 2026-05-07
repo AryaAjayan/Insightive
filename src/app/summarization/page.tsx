@@ -20,7 +20,7 @@ interface Summary {
     conclusion: string;
 }
 
-const BACKEND = 'http://localhost:8000';
+const BACKEND = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:8000';
 
 // ─── Section config ───────────────────────────────────────────────
 const SECTIONS: { key: keyof Omit<Summary, 'title'>; label: string; color: string }[] = [
