@@ -2,20 +2,6 @@
 
 Insightive is an AI-powered academic research platform designed to automate the extraction of structured intelligence from unstructured scientific literature. It aggregates data from over 15 external academic APIs and processes it through a custom Retrieval-Augmented Generation (RAG) backend. By leveraging local LLMs and in-memory vector embeddings, Insightive instantly transforms dense academic PDFs into actionable insights, helping researchers discover methodologies, key findings, and unaddressed research gaps.
 
-## 📸 Screenshots
-
-*(Replace the placeholder URLs below with actual screenshot links)*
-
-> **Dashboard / Search Interface**
-> ![Dashboard Placeholder](https://via.placeholder.com/800x400.png?text=Dashboard+Interface)
-
-> **Paper Analysis & Summary**
-> ![Analysis Placeholder](https://via.placeholder.com/800x400.png?text=AI+Analysis+and+Summarization)
-
-> **Semantic Search Results**
-> ![Search Placeholder](https://via.placeholder.com/800x400.png?text=Semantic+Search+Results)
-
----
 
 ## 🏗️ Architecture
 
